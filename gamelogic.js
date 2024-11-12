@@ -11,3 +11,7 @@ function getComputerChoice() {
     //use Math.random to generate a number which will determine the string returned
 
 }
+
+function getHumanChoice() {
+    
+}
