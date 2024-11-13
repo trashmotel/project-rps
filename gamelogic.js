@@ -63,3 +63,5 @@ const playerDecision = getHumanChoice();
 const cpuDecision = getComputerChoice();
 
 playRound(playerDecision,cpuDecision);
+
+function playGame() {}
