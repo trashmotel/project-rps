@@ -13,5 +13,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
+    //use prompt to get the human choice
+    prompt("Please type 'rock' 'paper' or 'scissors'")
     
 }
