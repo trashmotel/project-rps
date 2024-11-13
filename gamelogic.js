@@ -34,4 +34,27 @@ function getHumanChoice() {
 
 }
 
-function playRound(humanChoice,computerChoice) {}
+function playRound(humanChoice,computerChoice) {
+    if (humanChoice == 'rock' && computerChoice == 'scissors') {
+        console.log('You win! Rock beats scissors.');
+        humanScore++;
+        // console.log(`You: ${humanScore}    Computer: ${computerScore}`);
+   }else if (humanChoice == 'rock' && computerChoice == 'paper') {
+        console.log('Comptuter wins! Paper beats rock.');
+        computerScore++;
+   }else if (humanChoice == 'paper' && computerChoice == 'rock') {
+        console.log('You win! Paper beats rock.');
+        humanScore++;
+   }else if (humanChoice == 'paper' && computerChoice == 'scissors') {
+        console.log('Computer wins! Scissors beats paper.');
+        computerScore++;
+   }else if (humanChoice == 'scissors' && computerChoice == 'paper') {
+        console.log('You win! Scissors beats paper.');
+        humanScore++;
+   }else if (humanChoice == 'scissors' && computerChoice == 'rock') {
+        console.log('Computer wins! Rock beats scissors.');
+        computerScore++;
+   }else {
+    console.log('Tie! Try again.')
+   }
+}
