@@ -59,5 +59,7 @@ function playRound(humanChoice,computerChoice) {
    }
 }
 
-const playerDecision = getHumanChoice()
-const cpuDecision = getComputerChoice()
+const playerDecision = getHumanChoice();
+const cpuDecision = getComputerChoice();
+
+playRound(playerDecision,cpuDecision);
