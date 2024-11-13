@@ -58,3 +58,6 @@ function playRound(humanChoice,computerChoice) {
     console.log('Tie! Try again.')
    }
 }
+
+const playerDecision = getHumanChoice()
+const cpuDecision = getComputerChoice()
