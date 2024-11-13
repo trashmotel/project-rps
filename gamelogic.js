@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice() {
     let x = Math.random();
     //use If Else statements to return rock, paper, or scissors
@@ -30,3 +33,4 @@ function getHumanChoice() {
     }
 
 }
+
