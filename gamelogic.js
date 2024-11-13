@@ -14,6 +14,19 @@ function getComputerChoice() {
 
 function getHumanChoice() {
     //use prompt to get the human choice
-    prompt("Please type 'rock' 'paper' or 'scissors'")
-    
+    let choice = prompt("Please type 'rock' 'paper' or 'scissors'");
+    switch (choice) {
+        case "rock":
+            return 'rock';
+            break;
+        case "paper":
+            return 'paper';
+            break;
+        case "scissors":
+            return 'scissors';
+            break;
+        default:
+            alert('Please check your spelling and try again');
+    }
+
 }
