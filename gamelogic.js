@@ -54,13 +54,9 @@ function playRound(humanChoice,computerChoice) {
         console.log('Computer wins! Rock beats scissors.');
         computerScore++;
     }else {
-        console.log('Tie! Try again.')
+        console.log('Tie! Try again.');
     }
 }
-
-const playerDecision = getHumanChoice();
-const cpuDecision = getComputerChoice();
-
 
 function playGame() {
     playRound(getHumanChoice(),getComputerChoice());
