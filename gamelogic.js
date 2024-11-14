@@ -73,8 +73,12 @@ function playGame() {
         console.log('You win!');
         console.log(`Your score: ${humanScore}`);
         console.log(`Computer score: ${computerScore}`);
-   }else {
+   }else if (humanScore < computerScore) {
         console.log('Computer wins!');
+        console.log(`Your score: ${humanScore}`);
+        console.log(`Computer score: ${computerScore}`);
+   }else {
+        console.log('Tie!');
         console.log(`Your score: ${humanScore}`);
         console.log(`Computer score: ${computerScore}`);
    }
