@@ -65,5 +65,21 @@ const cpuDecision = getComputerChoice();
 function playGame() {
     playRound(getHumanChoice(),getComputerChoice());
     console.log(`You: ${humanScore}    Computer: ${computerScore}`);
-
+    playRound(getHumanChoice(),getComputerChoice());
+    console.log(`You: ${humanScore}    Computer: ${computerScore}`);
+    playRound(getHumanChoice(),getComputerChoice());
+    console.log(`You: ${humanScore}    Computer: ${computerScore}`);
+    playRound(getHumanChoice(),getComputerChoice());
+    console.log(`You: ${humanScore}    Computer: ${computerScore}`);
+    playRound(getHumanChoice(),getComputerChoice());
+    console.log(`You: ${humanScore}    Computer: ${computerScore}`);
+    if (humanScore > computerScore) {
+        console.log('You win!');
+        console.log(`Your score: ${humanScore}`);
+        console.log(`Computer score: ${computerScore}`);
+   }else {
+        console.log('Computer wins!');
+        console.log(`Your score: ${humanScore}`);
+        console.log(`Computer score: ${computerScore}`);
+   }
 }
