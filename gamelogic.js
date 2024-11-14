@@ -62,6 +62,8 @@ function playRound(humanChoice,computerChoice) {
 const playerDecision = getHumanChoice();
 const cpuDecision = getComputerChoice();
 
-playRound(playerDecision,cpuDecision);
 
-function playGame() {}
+function playGame() {
+    playRound(getHumanChoice(),getComputerChoice());
+
+}
